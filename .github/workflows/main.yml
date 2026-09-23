@@ -31,3 +31,6 @@ jobs:
 
       - name: Check Docker Image
         run: docker images
+
+      - name: Deploy to Render
+        run: curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
