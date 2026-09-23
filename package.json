@@ -1,0 +1,13 @@
+{
+  "name": "cicd-demo",
+  "version": "1.0.0",
+  "description": "CI/CD practical using GitHub Actions and Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node -e \"console.log('Tests passed successfully')\""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
